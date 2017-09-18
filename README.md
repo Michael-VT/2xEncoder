@@ -10,6 +10,6 @@ Video of project
 <a href="https://youtu.be/MyaaoBl5Cfc">2 x Encoder</a>
 ---
 
-<a href="https://www.youtube.com/watch?v=MyaaoBl5Cfc&list=PLEZw5HKlwBuJWFvtcRAYLoRZLov-5MSON&index=2">PlayList</a>
+<a href="https://www.youtube.com/watch?v=MyaaoBl5Cfc&list=PLEZw5HKlwBuJWFvtcRAYLoRZLov-5MSON&index=2">In PlayList</a>
 ---
 
