@@ -1,0 +1,16 @@
+#ChipScope Pro Analyzer Project File, Version 3.0
+#Wed Feb 08 11:07:28 VET 2017
+deviceChain.deviceName0=XC6SLX9
+deviceChain.iRLength0=6
+deviceChain.name0=MyDevice0
+deviceIds=24001093
+mdiAreaHeight=0.54125
+mdiAreaHeightLast=0.7
+mdiCount=0
+navigatorHeight=0.18
+navigatorHeightLast=0.18
+navigatorWidth=0.18
+navigatorWidthLast=0.18
+signalDisplayPath=1
+unit.-1.-1.username=
+unit.0.-1.username=

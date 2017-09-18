@@ -1,0 +1,15 @@
+START:Strategy:4:MapRegDup
+REMOTE_PID:6288
+RUNNING:6288:9992:MapRegDup:map:runled.ngd: -ol high -xe n -register_duplication on -w  -p xc6slx9-tqg144-3 -o runled_map.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun4:bslrunled.pcf
+STATUS:MapRegDup:map:Score:None:lut:None:slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:30.12 secs 
+STATUS:MapRegDup:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:30.12 secs 
+STATUS:MapRegDup:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:30.12 secs 
+STATUS:MapRegDup:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:30.12 secs 
+STATUS:MapRegDup:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:30.12 secs 
+STATUS:MapRegDup:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:0 (0%):mult18x18:None:Power:None:wnsInfo:None:Time:30.13 secs 
+DONE:map:0
+RUNNING:6288:4872:MapRegDup:par:runled_map.ncd: -ol high -xe n  -w runled.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun4:bslrunled.pcf
+STATUS:MapRegDup:par:Score:None:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:40.14 secs 
+DONE:par:0
+RUNNING:6288:4272:MapRegDup:trce:C:\Proj\runled\smartxplorer_results\run4\runled.ncd:C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun4:bslrunled.pcf -xml C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun4:bslrunled.twx -v 3 -s 3 -n 3 -fastpaths   -ucf runled.ucf -o C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun4:bslrunled.twr
+DONE:trce:0

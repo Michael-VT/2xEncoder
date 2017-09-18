@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Temp/runled/runled_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="runled_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/runled_tb/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/digit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit[19:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/digseg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digseg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digseg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/ledcir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ledcir[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ledcir[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/f_clk_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f_clk_1</obj_property>
+      <obj_property name="ObjectShortName">f_clk_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/f_clk_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f_clk_2</obj_property>
+      <obj_property name="ObjectShortName">f_clk_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/clk_25MHz" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_25MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_25MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/nreset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nreset</obj_property>
+      <obj_property name="ObjectShortName">nreset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/encoda" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">encoda[1:0]</obj_property>
+      <obj_property name="ObjectShortName">encoda[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/encodb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">encodb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">encodb[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/KEY1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">KEY1</obj_property>
+      <obj_property name="ObjectShortName">KEY1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/KEY2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">KEY2</obj_property>
+      <obj_property name="ObjectShortName">KEY2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/encodAsw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encodAsw</obj_property>
+      <obj_property name="ObjectShortName">encodAsw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfasw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfasw[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cntfasw[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfasw_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfasw_b</obj_property>
+      <obj_property name="ObjectShortName">cntfasw_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfasw_stat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfasw_stat</obj_property>
+      <obj_property name="ObjectShortName">cntfasw_stat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/encodBsw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">encodBsw</obj_property>
+      <obj_property name="ObjectShortName">encodBsw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfbsw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfbsw[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cntfbsw[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfbsw_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfbsw_b</obj_property>
+      <obj_property name="ObjectShortName">cntfbsw_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/cntfbsw_stat" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cntfbsw_stat</obj_property>
+      <obj_property name="ObjectShortName">cntfbsw_stat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/modea" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">modea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">modea[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/modeb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">modeb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">modeb[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/countx_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">countx_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">countx_r[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/county_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">county_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">county_r[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/countx_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">countx_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">countx_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/county_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">county_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">county_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/f_count_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_count_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_count_a[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/f_count_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_count_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_count_b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/set_mes1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_mes1</obj_property>
+      <obj_property name="ObjectShortName">set_mes1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/runled_tb/uut/set_mes2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_mes2</obj_property>
+      <obj_property name="ObjectShortName">set_mes2</obj_property>
+   </wvobject>
+</wave_config>

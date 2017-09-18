@@ -1,0 +1,30 @@
+START:Strategy:1:MapRunTime
+REMOTE_PID:7812
+RUNNING:7812:8600:MapRunTime:map:runled.ngd: -ol high -w  -p xc6slx9-tqg144-3 -o runled_map.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun1:bslrunled.pcf
+STATUS:MapRunTime:map:Score:None:lut:None:slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.12 secs 
+STATUS:MapRunTime:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.12 secs 
+STATUS:MapRunTime:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.13 secs 
+STATUS:MapRunTime:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.13 secs 
+STATUS:MapRunTime:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.13 secs 
+STATUS:MapRunTime:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:0 (0%):mult18x18:None:Power:None:wnsInfo:None:Time:20.13 secs 
+DONE:map:0
+RUNNING:7812:4764:MapRunTime:par:runled_map.ncd: -ol high  -w runled.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun1:bslrunled.pcf
+STATUS:MapRunTime:par:Score:None:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:35.17 secs 
+DONE:par:0
+RUNNING:7812:6780:MapRunTime:trce:C:\Proj\runled\smartxplorer_results\run1\runled.ncd:C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun1:bslrunled.pcf -xml C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun1:bslrunled.twx -v 3 -s 3 -n 3 -fastpaths   -ucf runled.ucf -o C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun1:bslrunled.twr
+DONE:trce:0
+START:Strategy:5:MapExtraEffortIOReg
+REMOTE_PID:7172
+RUNNING:7172:1172:MapExtraEffortIOReg:map:runled.ngd: -ol high -xe n -pr b -t 7 -w  -p xc6slx9-tqg144-3 -o runled_map.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun5:bslrunled.pcf
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:None:slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+STATUS:MapExtraEffortIOReg:map:Score:None:lut:58 (1%):slice_reg:34 (1%):slice:20 (1%):bram:0:dsp48:0 (0%):mult18x18:None:Power:None:wnsInfo:None:Time:15.08 secs 
+DONE:map:0
+RUNNING:7172:2640:MapExtraEffortIOReg:par:runled_map.ncd: -ol high -xe n  -w runled.ncd  C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun5:bslrunled.pcf
+STATUS:MapExtraEffortIOReg:par:Score:None:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:N/A:Time:25.08 secs 
+DONE:par:0
+RUNNING:7172:4288:MapExtraEffortIOReg:trce:C:\Proj\runled\smartxplorer_results\run5\runled.ncd:C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun5:bslrunled.pcf -xml C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun5:bslrunled.twx -v 3 -s 3 -n 3 -fastpaths   -ucf runled.ucf -o C:cl:bslProj:bslrunled:bslsmartxplorer_results:bslrun5:bslrunled.twr
+DONE:trce:0

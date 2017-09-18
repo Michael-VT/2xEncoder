@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Proj\runled\impact.xsl
+OUTFILE=C:\Proj\runled\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Proj\runled
+LICENSE=iMPACT
+USER_INFO=iMPACT

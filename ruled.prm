@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Proj\runled\//ruled -s 512 -u 0000 C:/Proj/runled/runled.bit -spi 
+
+PROM C:\Proj\runled\ruled.prm map: Thu Feb 09 19:08:35 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 02d7f6cc
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:3393     Feb 09 18:58:38 2017 C:/Proj/runled/runled.bit

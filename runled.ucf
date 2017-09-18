@@ -1,0 +1,124 @@
+NET "nreset"    LOC = P84;
+NET "clk_25MHz" LOC = P85;
+NET "f_clk_1" 	 LOC = P15;
+NET "f_clk_2" 	 LOC = P17;
+
+NET "encoda[0]" LOC = P87;
+NET "encoda[1]" LOC = P92;
+NET "encodAsw"  LOC = P94;
+
+NET "encodb[0]" LOC = P83;
+NET "encodb[1]" LOC = P88;
+NET "encodBsw"  LOC = P93;
+
+NET "KEY1" 	    LOC = P79;
+NET "KEY2" 	    LOC = P78;
+
+NET "leds[0]"   LOC = P1;
+NET "leds[1]"   LOC = P2;
+NET "leds[2]"   LOC = P5;
+NET "leds[3]"   LOC = P6;
+NET "leds[4]"   LOC = P7;
+NET "leds[5]"   LOC = P8;
+NET "leds[6]"   LOC = P9;
+NET "leds[7]"   LOC = P10;
+
+NET "digseg[0]" LOC = P82;
+NET "digseg[1]" LOC = P80;
+NET "digseg[2]" LOC = P66;
+NET "digseg[3]" LOC = P61;
+NET "digseg[4]" LOC = P58;
+NET "digseg[5]" LOC = P56;
+NET "digseg[6]" LOC = P51;
+NET "digseg[7]" LOC = P48;
+
+NET "digit[0]"  LOC = P81;
+NET "digit[1]"  LOC = P67;
+NET "digit[2]"  LOC = P62;
+NET "digit[3]"  LOC = P59;
+NET "digit[4]"  LOC = P57;
+NET "digit[5]"  LOC = P55;
+NET "digit[6]"  LOC = P50;
+NET "digit[7]"  LOC = P47;
+NET "digit[8]"  LOC = P45;
+NET "digit[9]"  LOC = P43;
+NET "digit[10]"  LOC = P40;
+NET "digit[11]"  LOC = P34;
+NET "digit[12]"  LOC = P32;
+NET "digit[13]"  LOC = P29;
+NET "digit[14]"  LOC = P26;
+NET "digit[15]"  LOC = P23;
+NET "digit[16]"  LOC = P21;
+NET "digit[17]"  LOC = P16;
+NET "digit[18]"  LOC = P14;
+NET "digit[19]"  LOC = P11;
+
+NET "ledcir[0]"   LOC = P97;
+NET "ledcir[1]"   LOC = P95;
+NET "ledcir[2]"   LOC = P99;
+NET "ledcir[3]"   LOC = P98;
+NET "ledcir[4]"   LOC = P101;
+NET "ledcir[5]"   LOC = P100;
+
+NET "nreset"      IOSTANDARD = LVCMOS33;
+NET "clk_25MHz"   IOSTANDARD = LVCMOS33;
+NET "f_clk_1"     IOSTANDARD = LVCMOS33;
+NET "f_clk_2"     IOSTANDARD = LVCMOS33;
+
+NET "encoda[0]"   IOSTANDARD = LVCMOS33;
+NET "encoda[1]"   IOSTANDARD = LVCMOS33;
+NET "encodAsw"    IOSTANDARD = LVCMOS33;
+
+NET "encodb[0]"   IOSTANDARD = LVCMOS33;
+NET "encodb[1]"   IOSTANDARD = LVCMOS33;
+NET "encodBsw"    IOSTANDARD = LVCMOS33;
+
+NET "KEY1"        IOSTANDARD = LVCMOS33; 	    
+NET "KEY2"        IOSTANDARD = LVCMOS33; 	    
+
+NET "leds[0]"     IOSTANDARD = LVCMOS33;
+NET "leds[1]"     IOSTANDARD = LVCMOS33;
+NET "leds[2]"     IOSTANDARD = LVCMOS33;
+NET "leds[3]"     IOSTANDARD = LVCMOS33;
+NET "leds[4]"     IOSTANDARD = LVCMOS33;
+NET "leds[5]"     IOSTANDARD = LVCMOS33;
+NET "leds[6]"     IOSTANDARD = LVCMOS33;
+NET "leds[7]"     IOSTANDARD = LVCMOS33;
+
+NET "digseg[0]"   IOSTANDARD = LVCMOS33;
+NET "digseg[1]"   IOSTANDARD = LVCMOS33;
+NET "digseg[2]"   IOSTANDARD = LVCMOS33;
+NET "digseg[3]"   IOSTANDARD = LVCMOS33;
+NET "digseg[4]"   IOSTANDARD = LVCMOS33;
+NET "digseg[5]"   IOSTANDARD = LVCMOS33;
+NET "digseg[6]"   IOSTANDARD = LVCMOS33;
+NET "digseg[7]"   IOSTANDARD = LVCMOS33;
+
+NET "digit[0]"    IOSTANDARD = LVCMOS33;
+NET "digit[1]"    IOSTANDARD = LVCMOS33;
+NET "digit[2]"    IOSTANDARD = LVCMOS33;
+NET "digit[3]"    IOSTANDARD = LVCMOS33;
+NET "digit[4]"    IOSTANDARD = LVCMOS33;
+NET "digit[5]"    IOSTANDARD = LVCMOS33;
+NET "digit[6]"    IOSTANDARD = LVCMOS33;
+NET "digit[7]"    IOSTANDARD = LVCMOS33;
+NET "digit[8]"    IOSTANDARD = LVCMOS33;
+NET "digit[9]"    IOSTANDARD = LVCMOS33;
+NET "digit[10]"   IOSTANDARD = LVCMOS33;
+NET "digit[11]"   IOSTANDARD = LVCMOS33;
+NET "digit[12]"   IOSTANDARD = LVCMOS33;
+NET "digit[13]"   IOSTANDARD = LVCMOS33;
+NET "digit[14]"   IOSTANDARD = LVCMOS33;
+NET "digit[15]"   IOSTANDARD = LVCMOS33;
+NET "digit[16]"   IOSTANDARD = LVCMOS33;
+NET "digit[17]"   IOSTANDARD = LVCMOS33;
+NET "digit[18]"   IOSTANDARD = LVCMOS33;
+NET "digit[19]"   IOSTANDARD = LVCMOS33;
+
+NET "ledcir[0]"   IOSTANDARD = LVCMOS33;
+NET "ledcir[1]"   IOSTANDARD = LVCMOS33;
+NET "ledcir[2]"   IOSTANDARD = LVCMOS33;
+NET "ledcir[3]"   IOSTANDARD = LVCMOS33;
+NET "ledcir[4]"   IOSTANDARD = LVCMOS33;
+NET "ledcir[5]"   IOSTANDARD = LVCMOS33;
+

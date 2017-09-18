@@ -1,0 +1,12 @@
+Storage Target: SPI Flash Single FPGA
+4M
+FF
+runled
+C:\Proj\runled\
+
+MCS
+No
+tled
+C:\Proj\runled\
+
+MCS

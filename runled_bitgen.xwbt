@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Proj\runled\runled.ncd
+OUTFILE=C:\Proj\runled\runled.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Proj\runled
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,60 @@
+# runled.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Tue Feb 21 22:17:23 2017
+#The following constraints were newly added
+NET "digit<15>" LOC = P23;
+NET "digit<16>" LOC = P21;
+NET "digit<17>" LOC = P16;
+NET "digit<18>" LOC = P14;
+NET "digit<19>" LOC = P11;
+NET "digit<0>" LOC = P81;
+NET "clk" LOC = P85;
+NET "ledcir<0>" LOC = P97;
+NET "digit<1>" LOC = P67;
+NET "ledcir<1>" LOC = P95;
+NET "digit<2>" LOC = P62;
+NET "ledcir<2>" LOC = P99;
+NET "digit<3>" LOC = P59;
+NET "ledcir<3>" LOC = P98;
+NET "digit<4>" LOC = P57;
+NET "ledcir<4>" LOC = P101;
+NET "digit<5>" LOC = P55;
+NET "ledcir<5>" LOC = P100;
+NET "digit<6>" LOC = P50;
+NET "digit<7>" LOC = P47;
+NET "encodb<0>" LOC = P83;
+NET "digit<8>" LOC = P45;
+NET "encodb<1>" LOC = P88;
+NET "digit<9>" LOC = P43;
+NET "digseg<0>" LOC = P82;
+NET "digseg<1>" LOC = P80;
+NET "leds<0>" LOC = P1;
+NET "digseg<2>" LOC = P66;
+NET "leds<1>" LOC = P2;
+NET "digseg<3>" LOC = P61;
+NET "leds<2>" LOC = P5;
+NET "digseg<4>" LOC = P58;
+NET "leds<3>" LOC = P6;
+NET "digseg<5>" LOC = P56;
+NET "leds<4>" LOC = P7;
+NET "digseg<6>" LOC = P51;
+NET "leds<5>" LOC = P8;
+NET "digseg<7>" LOC = P48;
+NET "leds<6>" LOC = P9;
+NET "encoda<0>" LOC = P87;
+NET "leds<7>" LOC = P10;
+NET "encodAsw" LOC = P94;
+NET "encoda<1>" LOC = P92;
+NET "nreset" LOC = P84;
+NET "encodBsw" LOC = P93;
+NET "digit<10>" LOC = P40;
+NET "digit<11>" LOC = P34;
+NET "digit<12>" LOC = P32;
+NET "digit<13>" LOC = P29;
+NET "digit<14>" LOC = P26;

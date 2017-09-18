@@ -1,0 +1,78 @@
+#:C29    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Proj\runled
+#Date/Time:
+#:T   Fri Feb 17 01:25:50 2017
+#------------------------------
+	#Reading runled_map.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "runled" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+	#Design creation date: 2017.02.16.22.22.27
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'digit<4>'
+	#3
+post ila
+	#Building all ILA Capture Units ...
+	#4
+unpost ila
+	#5
+post attr
+	#6
+unpost comp "digit<4>"
+	#7
+unselect comp 'digit<4>'
+	#8
+select -k comp 'count<14>'
+	#9
+unselect comp 'count<14>'
+	#10
+select -k comp 'count<11>'
+	#11
+unselect comp 'count<11>'
+	#12
+select -k comp 'count<7>'
+	#13
+unselect comp 'count<7>'
+	#14
+select -k comp 'count<3>'
+	#15
+unselect comp 'count<3>'
+	#16
+select -k comp 'clk_BUFGP/BUFG'
+	#17
+unselect comp 'clk_BUFGP/BUFG'
+	#18
+select -k comp 'digit<5>'
+	#19
+unselect comp 'digit<5>'
+	#20
+select -k comp 'digit<4>'
+	#21
+unselect comp 'digit<4>'
+	#22
+select -k comp 'digit<5>'
+	#23
+unselect comp 'digit<5>'
+	#24
+select -k comp 'digit<4>'
+	#25
+unselect comp 'digit<4>'
+	#26
+select -k comp 'digit<3>'
+	#27
+unselect comp 'digit<3>'
+	#28
+select -k comp 'digit<1>'
+	#29
+unselect comp 'digit<1>'
+	#30
+select -k comp 'digseg<1>'
+	#31
+unselect -all
